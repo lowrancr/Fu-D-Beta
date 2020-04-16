@@ -4,7 +4,7 @@
 
 # Working in Fu-D
 
-  Xamarin forms breaks down the app into a few different code bases. You will find the foldersr split into Fud.Android, FuD.iOS, and FuD.
+  Xamarin forms breaks down the app into a few different code bases. You will find the folders split into Fud.Android, FuD.iOS, and FuD.
 All our code will be done in the FuD folder. This is the "shared" code base. Everything we do in the "shared" code base will be automatically handled by Xamarin and converted into the Native language for each platform. 
 
   ## Structure
