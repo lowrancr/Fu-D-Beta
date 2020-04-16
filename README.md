@@ -11,7 +11,7 @@ All our code will be done in the FuD folder. This is the "shared" code base. Eve
   
   When working in FuD, we will be using the **MVVM** architecture. This seperates our UI from our business logic, making code easier to test and making it more organized. FuD also implements [Xamarin Forms Shell](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/app-fundamentals/shell/). What this does is it creates a "shell" that everything sits in. This "shell" is essentially, the bottom tap bar, the flyout menu, the header, and the ability to navigate between pages. Our job now is to fill said pages with actual content.
   
-  The Shell is AppShell.xaml, this acts as the 'MainPage' for all intenstive purposes. From there we insert _**Views**_ which are found int he Views folder. _**Views**_ are our Content Pages, or our UI. Views will be inserted into AppShell.xaml in their respected places. Our business logic that handles actual data will be in the _**ViewModels**_ folder. These will usually just be C# classes that will relate and [_bind_](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/app-fundamentals/data-binding/) logic to elements in the UI.  
+  The Shell is AppShell.xaml, this acts as the 'MainPage' for all intenstive purposes. From there we insert _**Views**_ which are found in the Views folder. _**Views**_ are our Content Pages, or our UI. Views will be inserted into AppShell.xaml in their respected places. Our business logic that handles actual data will be in the _**ViewModels**_ folder. These will usually just be C# classes that will relate and [_bind_](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/app-fundamentals/data-binding/) logic to elements in the UI.  
  
 # Resources
 
