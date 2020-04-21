@@ -68,7 +68,7 @@
             <views:SearchPage/>
         </ShellContent>
         <ShellContent Title="New" Icon="plus.png">
-            <!--TODO: New View-->
+            <views:NewRecipe/>
         </ShellContent>
         <ShellContent Title="Saved" Icon="heart.png">
             <!--TODO: Saved View-->
