@@ -71,7 +71,7 @@
             <views:NewRecipe/>
         </ShellContent>
         <ShellContent Title="Saved" Icon="heart.png">
-            <!--TODO: Saved View-->
+            <views:SavedRecipes/>
         </ShellContent>
         <ShellContent Title="Profile" Icon="user.png">
             <!--TODO: Profile View-->
