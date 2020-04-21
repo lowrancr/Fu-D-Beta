@@ -48,18 +48,7 @@
             </Grid>
         </DataTemplate>
     </Shell.FlyoutHeaderTemplate>
-    
-    <!--
-    Breakpoint is on so if you try to click on a page that has not been 
-    implemented yet it will throw error:
-    
-    System.InvalidOperationException: 
-    'No Content found for ShellContent, Title:Search, Route ShellContent81'
-    
-    This is okay restart the app it just means that the page has not been 
-    implemented yet, hence "No content" 👍
-    --> 
-    
+
     <FlyoutItem Title="Fu-D" FlyoutDisplayOptions="AsMultipleItems">
         <ShellContent Title ="Home" Icon="home.png">
             <views:HomePage/>
@@ -74,7 +63,7 @@
             <views:SavedRecipes/>
         </ShellContent>
         <ShellContent Title="Profile" Icon="user.png">
-            <!--TODO: Profile View-->
+            <views:ProfilePage/>
         </ShellContent>
     </FlyoutItem>
  
