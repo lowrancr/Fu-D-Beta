@@ -65,7 +65,7 @@
             <views:HomePage/>
         </ShellContent>
         <ShellContent Title="Search" Icon="search.png">
-            <!--TODO: Search View-->
+            <views:SearchPage/>
         </ShellContent>
         <ShellContent Title="New" Icon="plus.png">
             <!--TODO: New View-->
