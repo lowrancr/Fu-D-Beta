@@ -6,6 +6,7 @@
              mc:Ignorable="d"
              x:Class="FuD.Views.SavedRecipes"
              Shell.BackgroundColor="{StaticResource Primary}"
+             Style="{StaticResource ContentPageStyle}"
              Title="Saved"
              >
     <ContentPage.Content>

@@ -7,14 +7,30 @@
              x:Class="FuD.App">
     <Application.Resources>
         <ResourceDictionary>
+            
             <!-- 
             Colors 
             -->
-            <Color x:Key="Primary">#517201</Color>
-            <Color x:Key="DisabledColor">#3C5400</Color>
-            <Color x:Key="Secondary">#C6BE9E</Color>
-            <Color x:Key="Border">#E9DFB6</Color>
-            <Color x:Key="Text">#FFFFFF</Color>
+            <Color x:Key="Primary">#517201</Color> <!--Green-->
+            <Color x:Key="DisabledColor">#3C5400</Color> <!--Deep Green-->
+            <Color x:Key="Secondary">#C6BE9E</Color> <!--Brown-->
+            <Color x:Key="Border">#E9DFB6</Color> <!--Light Brown/Tan-->
+            <Color x:Key="Text">#FFFFFF</Color> <!--White-->
+            
+            <!--
+            Styles for content pages
+            -->
+            <Style x:Key="ContentPageStyle" TargetType="ContentPage">
+                <Setter Property="BackgroundColor" Value="{StaticResource Secondary}"/>
+            </Style>
+            
+            <!--
+            Style for labels
+            -->
+            <Style x:Key="LabelStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="{StaticResource Text}"/>
+            </Style>
+            
         </ResourceDictionary>
     </Application.Resources>
 </Application>
