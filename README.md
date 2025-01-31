@@ -27,3 +27,6 @@ All our code will be done in the FuD folder. This is the "shared" code base. Eve
   
   [Xamarin.Forms 101: Application Resources](https://www.youtube.com/watch?v=RvwMqYU-6qA&list=PLM75ZaNQS_FaEPpqVjfQdnFaSR1EWCeNZ&index=5)
   
+
+
+  dfsdfsdfsdf
